@@ -60,7 +60,7 @@ namespace HW1b_Grade
             Exam3 = Convert.ToDouble(Exam3AsString);
             Homework = Convert.ToDouble(HomeworkAsString);
             Participation = Convert.ToDouble(ParticipationAsString);
-
+             
             Overall = (Exam1 * Exam1Percent) + (Exam2 * Exam2Percent) + (Exam3 * Exam3Percent) 
                 + (Homework * HomeworkPercent) + (Participation * ParticipationPercent);
 
